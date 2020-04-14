@@ -166,21 +166,7 @@ export default function SaveCreation(props) {
 
   // Depending on the state, show a different thing in the upload box.
   const uploadBox = (() => {
-    if (!opencast.isReadyToUpload() && uploadState.state === STATE_NOT_UPLOADED) {
-      return <ConnectionUnconfiguredWarning />;
-    }
-
-    switch (uploadState.state) {
-      case STATE_UPLOADING:
-        return <UploadProgress
-          currentProgress={uploadState.currentProgress}
-          secondsLeft={uploadState.secondsLeft}
-        />;
-      case STATE_UPLOADED:
-        return <UploadSuccess />;
-      default: // STATE_NOT_UPLOADED or STATE_ERROR
-        return <UploadForm {...{ opencast, uploadState, recordings, handleUpload }} />
-    }
+    return <UploadInformationNotification />
   })();
 
   return (
@@ -284,6 +270,16 @@ const ConnectionUnconfiguredWarning = () => {
     </Notification>
   );
 }
+
+const UploadInformationNotification = () => {
+  return (
+    <Notification key="upload-information" >
+      <Trans i18nKey="upload-information-notification">
+          Notification
+      </Trans>
+    </Notification>
+  )
+};
 
 const UploadForm = ({ opencast, uploadState, recordings, handleUpload }) => {
   const { t } = useTranslation();

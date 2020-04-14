@@ -6,7 +6,7 @@ import { faChalkboard, faChalkboardTeacher, faUser } from '@fortawesome/free-sol
 import { Container, Flex, Heading, Text } from '@theme-ui/components';
 import { Styled } from 'theme-ui';
 import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import {Trans, useTranslation} from 'react-i18next';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { useDispatch, useStudioState } from '../../../studio-state';
@@ -91,6 +91,16 @@ export default function VideoSetup(props) {
       <Text>{t('source-display-not-allowed-text')}</Text>
     </Notification>
   );
+
+  const UploadInformation = () => {
+    return (
+      <Notification key="upload-information" >
+        <Trans i18nKey="upload-information-notification">
+          Notification
+        </Trans>
+      </Notification>
+    )
+  };
 
   // The body depends on which source is currently selected.
   let hideActionButtons;
@@ -201,10 +211,13 @@ export default function VideoSetup(props) {
         minHeight: 0,
       }}
     >
+      <div >
+        <UploadInformation />
+      </div>
+
       <Styled.h1 sx={{ textAlign: 'center', fontSize: ['26px', '30px', '32px'] }}>
         {title}
       </Styled.h1>
-
       { body }
 
       {activeSource !== NONE && <div sx={{ mb: 3 }}></div>}
@@ -217,6 +230,8 @@ export default function VideoSetup(props) {
           label: 'sources-video-reselect-source',
         }}
       />}
+
+
     </Container>
   );
 }

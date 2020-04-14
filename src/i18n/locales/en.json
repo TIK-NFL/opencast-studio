@@ -21,7 +21,7 @@
   "save-creation-title-done": "Done!",
   "save-creation-subsection-title-download": "Download recording",
   "save-creation-download-button": "Download",
-  "save-creation-subsection-title-upload": "Upload to Opencast",
+  "save-creation-subsection-title-upload": "Information",
   "save-creation-upload-to": "Upload to <1>{{server}}</1>",
   "save-creation-new-recording": "Start a new recording",
   "save-creation-new-recording-warning": "By starting a new recording, the current recordings will be discarded in this application (uploaded or download recordings are not affected). Are you sure?",
@@ -97,5 +97,7 @@
   "warning-recorder-not-supported": "Your browser does not support recording media streams.",
   "warning-recorder-safari-hint": "If you are using Safari, you can enable the experimental feature 'MediaRecorder' in settings. However, on macOS, we recommend switching to Chrome or Firefox.",
   "warning-missing-connection-settings": "Connection to Opencast is not fully established: uploading is disabled. Please configure the connection in <1>the settings</1> (you won't lose your recording).",
-  "settings-back-to-recording": "Back to recording"
+  "settings-back-to-recording": "Back to recording",
+
+  "upload-information-notification": "This is a Test!"
 }

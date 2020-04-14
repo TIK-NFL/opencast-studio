@@ -23,7 +23,7 @@
   "save-creation-title-done": "Geschafft!",
   "save-creation-subsection-title-download": "Aufnahme runterladen",
   "save-creation-download-button": "Runterladen",
-  "save-creation-subsection-title-upload": "Zu Opencast hochladen",
+  "save-creation-subsection-title-upload": "Informationen",
   "save-creation-upload-to": "Zu <1>{{server}}</1> hochladen",
   "save-creation-new-recording": "Neue Aufzeichnung starten",
   "save-creation-new-recording-warning": "Wenn Sie eine neue Aufzeichnung starten, werden die derzeitigen Aufzeichnungen in dieser Applikation verworfen (herunter- oder hochgeladene Aufzeichnung bleiben aber erhalten). Sind Sie sicher?",
@@ -96,5 +96,7 @@
   "warning-recorder-safari-hint": "Falls Sie Safari nutzen, können Sie die experimentelle Funktion 'MediaRecorder' in den Einstellungen aktivieren. Wir empfehlen allerdings, auf macOS Firefox oder Chrome zu nutzen.",
   "warning-missing-connection-settings": "Die Verbindung zum Opencast Server wurde noch nicht vollständig hergestellt. Bitte konfigurieren Sie die Verbindung in <1>den Einstellungen</1> (die Aufnahme geht nicht verloren).",
 
-  "settings-back-to-recording": "Zurück zur Aufnahme"
+  "settings-back-to-recording": "Zurück zur Aufnahme",
+
+  "upload-information-notification": "Das ist ein Test!"
 }

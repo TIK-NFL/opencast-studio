@@ -41,9 +41,9 @@ const Routes = ({ settingsManager, userHasWebcam }) => {
     <Fragment>
       <PreventClose />
       <Switch>
-        <Route path="/settings" exact>
+{/*        <Route path="/settings" exact>
           <SettingsPage settingsManager={settingsManager} />
-        </Route>
+        </Route>*/}
 
         <Route path="/about" exact>
           <About />

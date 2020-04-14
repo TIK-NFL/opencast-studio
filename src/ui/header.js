@@ -187,9 +187,9 @@ const Navigation = props => {
         <NavElement target="/" icon={faVideo} onClick={closeMenu}>
           {t('nav-recording')}
         </NavElement>
-        <NavElement target="/settings" icon={faWrench} onClick={closeMenu}>
+{/*        <NavElement target="/settings" icon={faWrench} onClick={closeMenu}>
           {t('nav-settings')}
-        </NavElement>
+        </NavElement>*/}
         <NavElement target="/about" icon={faInfoCircle} onClick={closeMenu}>
           {t('nav-about')}
         </NavElement>
