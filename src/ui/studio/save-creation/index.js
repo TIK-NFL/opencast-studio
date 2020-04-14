@@ -29,6 +29,7 @@ import RecordingPreview from './recording-preview';
 
 
 const LAST_PRESENTER_KEY = 'lastPresenter';
+const FEX_URL = 'https://fex.uni-stuttgart.de';
 
 const Input = props => <input sx={{ variant: 'styles.input' }} {...props} />;
 
@@ -276,6 +277,11 @@ const UploadInformationNotification = () => {
     <Notification key="upload-information" >
       <Trans i18nKey="upload-information-notification">
           Notification
+        <b>first</b>
+        <a href={FEX_URL} rel="noopener noreferrer" target="_blank">
+          fex
+        </a>
+        <b>mail</b>
       </Trans>
     </Notification>
   )

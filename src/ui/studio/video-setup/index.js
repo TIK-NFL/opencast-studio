@@ -92,16 +92,6 @@ export default function VideoSetup(props) {
     </Notification>
   );
 
-  const UploadInformation = () => {
-    return (
-      <Notification key="upload-information" >
-        <Trans i18nKey="upload-information-notification">
-          Notification
-        </Trans>
-      </Notification>
-    )
-  };
-
   // The body depends on which source is currently selected.
   let hideActionButtons;
   let title;
@@ -211,9 +201,6 @@ export default function VideoSetup(props) {
         minHeight: 0,
       }}
     >
-      <div >
-        <UploadInformation />
-      </div>
 
       <Styled.h1 sx={{ textAlign: 'center', fontSize: ['26px', '30px', '32px'] }}>
         {title}

@@ -99,6 +99,6 @@
   "warning-missing-connection-settings": "Connection to Opencast is not fully established: uploading is disabled. Please configure the connection in <1>the settings</1> (you won't lose your recording).",
   "settings-back-to-recording": "Back to recording",
 
-  "upload-information-notification": "Please save your recording to your computer now. Recordings which contain only a camera or a screen can be added to your Opencast-object in ILIAS directly. Recordings which contain both, a camera and a screen need to transfered to the recording support team. Please use https://fex.uni-stuttgart.de and specify aufzeichnungen-support@tik.uni-stuttgart.de as a recipient. Please also provide a the link to your Opencast-object in ILIAS is a comment."
+  "upload-information-notification": "<1>Please save your recording to your computer now.</1> Recordings which only contain a camera or a screen can be added to your Opencast-object in ILIAS directly. Recordings which contain both, a camera and a screen need to transferred to the recording support team. Please use <1>https://fex.uni-stuttgart.de</1> and specify <2>aufzeichnungen-support@tik.uni-stuttgart.de</2> as a recipient. Please also provide a the link to your Opencast-object in ILIAS as a comment."
 
 }
