@@ -98,7 +98,7 @@
   "warning-recorder-safari-hint": "If you are using Safari, you can enable the experimental feature 'MediaRecorder' in settings. However, on macOS, we recommend switching to Chrome or Firefox.",
   "warning-missing-connection-settings": "Connection to Opencast is not fully established: uploading is disabled. Please configure the connection in <1>the settings</1> (you won't lose your recording).",
   "settings-back-to-recording": "Back to recording",
-
+  
   "upload-information-notification": "<1>Please save your recording to your computer now.</1> Recordings which only contain a camera or a screen can be added to your Opencast-object in ILIAS directly. Recordings which contain both, a camera and a screen need to transferred to the recording support team. Please use <1>https://fex.uni-stuttgart.de</1> and specify <2>aufzeichnungen-support@tik.uni-stuttgart.de</2> as a recipient. Please also provide a the link to your Opencast-object in ILIAS as a comment. <4>Due to the increased volume of work during the online summer semester 2020 and the simultaneous thin personnel cover, it may take a few days before we can process your request. Please take this into account when planning your courses (e.g. when releasing videos). We kindly ask for your understanding!</4>"
 
 }
