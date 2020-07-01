@@ -273,6 +273,9 @@ const ConnectionUnconfiguredWarning = () => {
 }
 
 const UploadInformationNotification = () => {
+  const pStyle = {
+    fontWeight: 'bold'
+  };
   return (
     <Notification key="upload-information" >
       <Trans i18nKey="upload-information-notification">
@@ -282,6 +285,7 @@ const UploadInformationNotification = () => {
           fex
         </a>
         <b>mail</b>
+        <p style={pStyle}>summer</p>
       </Trans>
     </Notification>
   )
