@@ -274,7 +274,9 @@ const ConnectionUnconfiguredWarning = () => {
 
 const UploadInformationNotification = () => {
   const pStyle = {
+
     fontWeight: 'bold'
+    
   };
   return (
     <Notification key="upload-information" >
